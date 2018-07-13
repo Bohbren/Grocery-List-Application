@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(212, 21, 69);
+}
+
+button {
+    padding: 10px;
+}
+.dummyButtons {
+    opacity: 0;
+    position: relative;
+    float: right;
+    padding: 0;
+}
+
+li:hover .dummyButtons {
+    opacity: 1;
+    color: rgb(0, 0, 0);
+    background-color: red;
+}
+
+.lineWord {
+    text-decoration: line-through;
+}
+
+.noLine {
+    text-decoration: none; 
+    color: red;
+}
+
+#listWidth {
+   max-width: 100%;
+   width: 40%;
+   color: black;
+   background-color: #FEFFFF;
+   font-size: 20px;
+   word-wrap: break-word;
+   margin: auto;
+   
+}
+
+li {
+    background-color: #FEFFFF;
+    padding: 1px;
+    list-style-position:inside;
+    border: 1px solid black;
+    border-width: 2px;
+    border-color: #24EEF0;
+    border-left-color: #B046B4;
+    text-align: left;
+
+}
+
+#userinput {
+    padding: 10px;
+}
