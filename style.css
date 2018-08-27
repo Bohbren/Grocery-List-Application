@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(212, 21, 69);
+    background-color: #24292E;
 }
 
 button {
@@ -52,4 +52,12 @@ li {
 
 #userinput {
     padding: 10px;
+}
+
+h1{
+    color:white;
+}
+
+h2{
+    color:white;
 }
